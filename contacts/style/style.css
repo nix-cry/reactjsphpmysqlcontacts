@@ -1,0 +1,131 @@
+:root {
+    --color-body: #e4e4e4;
+    --color-bacg:   #ffffff;
+    --color-butn: #5f5fff;
+    --height-contacts: 25em;
+    --font-size-header: 1em;
+    --font-size-input: 1.5em;
+}
+.body {
+    background-color: var(--color-body);
+}
+.jam-contacts {
+    padding: 30px;
+    background-color: var(--color-body);
+    display: flex;
+    font-family: arial, sans-serif;
+    height: var(--height-contacts);
+}
+.jam-posc {
+    margin: 0 auto;
+    width: 30%;
+    
+    border-width: 1px;
+    border-radius: 5px;
+}
+.jam-bord {
+    background-color: var(--color-body);
+    margin: 1em 4em 1em 4em;
+    
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.jam-add-contact{
+    background-color: var(--color-bacg);
+    margin: auto;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.jam-control {
+    width: 100%;
+    display: flex;
+    
+    flex-direction: column;
+}
+.jam-mod-header {
+    border-bottom: 1px solid #e6e6e6;
+}
+.jam-header-contact {
+    width: 100%;
+    margin: 1em 3em 1em 3em;
+    text-align: left;
+    
+}   
+.jam-header {
+   
+    font-size: var(--font-size-header);
+}
+.jam-input-contact {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 3em 1em 3em;
+}
+
+.jam-input {
+    font-size: var(--font-size-input);
+    margin: 0.5em 0em 0.5em 0em;
+}
+.jam-button-contact {
+    display: flex;
+    margin: 0.7em 0em 0.7em 0em;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: flex-end;
+}
+.jam-button {
+    color: var(--color-bacg);
+    background-color: var(--color-butn);
+    margin: 0em 0.7em 0em 0em;
+    font-size: var(--font-size-header);
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+
+.jam-contact {
+    
+    background-color: var(--color-bacg);
+    margin: auto;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 2em 0em 0em 0em;
+
+}
+
+.jam-input-search-contact {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 3em 1em 3em;
+}
+
+.jam-contact-ord {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+}
+
+.jam-u-contact {
+    display: flex;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 1em 3em 1em 3em;
+    width: 100%;
+}   
+
+.jam-u-contact-see {
+    margin: 0em 0.7em 0em 0em;
+    display: flex;
+    flex-direction: column;
+}
+
+.jam-contact-del {
+    cursor: pointer;
+}
